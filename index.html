@@ -1,16 +1,45 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Include Tailwind CSS from JSdelivr CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>August's Dev Site</title>
 </head>
+<body class="bg-gray-100 font-sans">
 
-<body>
-  Hello world + August
-  <script src="script.js"></script>
+    <header class="bg-gray-800 text-white p-4">
+        <h1 class="text-3xl">August's Dev Site</h1>
+        <p>Welcome to the world of development!</p>
+    </header>
+
+    <section class="main-content p-8">
+        <h2 class="text-2xl">About Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </section>
+
+    <section class="features p-8">
+        <h2 class="text-2xl">Key Features</h2>
+        <ul class="list-disc list-inside">
+            <li>Feature 1</li>
+            <li>Feature 2</li>
+            <li>Feature 3</li>
+        </ul>
+    </section>
+
+    <section class="cta p-8">
+        <h2 class="text-2xl">Get Started</h2>
+        <p>Join us in creating amazing things. Let's build the future together!</p>
+        <a href="#" class="btn bg-gray-800 text-white py-2 px-4 rounded-full">Sign Up</a>
+    </section>
+
+    <footer class="bg-gray-800 text-white text-center p-4 fixed bottom-0 w-full">
+        <p>&copy; 2024 August Bowles. All rights reserved.</p>
+    </footer>
+
+    <!-- Optional: Include Tailwind CSS for development with JIT (Just-In-Time) compiler -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.js"></script> -->
 </body>
-
 </html>
